@@ -1,9 +1,0 @@
-Topic,Note
-Weight variable,"wgt (label in data: 'Weight'). One per respondent; never missing and always > 0 (min 0.078, max 7.55)."
-What it represents (from the data),"Post-stratification weight WITHIN each economy: it sums to the sample size n of that economy (wgt_sum/n = 1 in all economies), so the mean weight is 1. It makes the sample representative of the adult (15+) population of that economy and carries NO information about economy size."
-Source documentation,"The codebook/technical notes were not available when this was run, so the description above is inferred from the data. Paste the exact sentence from the technical notes."
-Within an economy,Use wgt. Weighted share = sum(wgt*x) / sum(wgt) over respondents with non-missing x.
-"Across economies (regions, global, pooled)","Use wgt * pop_adult / n of the economy (each economy then sums to its adult population). Raw wgt pools economies as if each had about 1,000 adults, so large-sample economies count more and small-sample ones less."
-Pitfall: restricted samples,account_mob exists in 80 economies and the activity variables in 98. Pooled or regional averages for them cover only those economies; do not compare with averages over all 140.
-Pitfall: extreme weights,"Largest max/min weight ratio: NIC 96.6, CHN 41.8, MOZ 36.8, COD 36.7, PHL 34.4 (median economy 12.2). Estimates there are noisier (see Kish deff in Weights_by_Economy); check sensitivity."
-Pitfall: sample sizes,"88 economies have exactly 1,000 interviews; smallest: ISL 500, TTO 502, BLZ 509; largest: CHN 4,020, IND 3,000. Total weight = 144,090; total adult population in file = 5,763,538,952."
