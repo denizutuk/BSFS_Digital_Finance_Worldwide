@@ -1,0 +1,15 @@
+Check,Result
+Brief: mobile money N,"81,924"
+account_mob non-missing (data),"81,924"
+Matches brief?,YES
+Brief: activity variables N,"102,954"
+anydigpayment non-missing (data),"102,954 (identical in saved, borrowed, dig_account)"
+Matches brief?,YES
+Respondents with BOTH account_mob and activity vars,"78,921"
+Economies with BOTH,77
+Economies with account_mob only (no activity vars),"KOR, RUS, SGP (3)"
+Economies with activity vars only (no account_mob),"21: ALB, AZE, BGR, BIH, CHN, CRI, DZA, GEO, HRV, LBY, MDA, MKD, MNE, MRT, OMN, POL, ROU, SRB, UKR, UZB, XKX"
+Economies with neither,39
+Economies where account_mob asked,80 of 140
+Economies where activity vars asked,98 of 140
+account_mob asked partially within an economy?,No: all-or-nothing in every economy

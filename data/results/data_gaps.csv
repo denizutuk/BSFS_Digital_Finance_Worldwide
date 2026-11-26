@@ -1,0 +1,17 @@
+Issue,Detail
+Survey year,'year' = 2024 in the data (fieldwork year); the product is named 'Findex 2025' after the release year.
+Mobile money coverage,"account_mob asked in 80/140 economies; not asked in 60: ALB, AUS, AUT, AZE, BEL, BGR, BHR, BIH, CAN, CHE, CHL, CHN, CRI, CYP, CZE, DEU, DNK, DZA, ESP, EST, FIN, FRA, GBR, GEO, GRC, HKG, HRV, HUN, IRL, ISL, ISR, ITA, JPN, KWT, LBY, LTU, LVA, MDA, MKD, MLT, MNE, MRT, NLD, NOR, NZL, OMN, POL, PRT, ROU, SRB, SVK, SVN, SWE, TTO, TWN, UKR, URY, USA, UZB, XKX."
+Activity variables coverage,"dig_account, anydigpayment, saved, borrowed, merchantpay_dig, fin17a, fin22a missing in the same 42 economies: AUS, AUT, BEL, BHR, CAN, CHE, CHL, CYP, CZE, DEU, DNK, ESP, EST, FIN, FRA, GBR, GRC, HKG, HUN, IRL, ISL, ISR, ITA, JPN, KOR, KWT, LTU, LVA, MLT, NLD, NOR, NZL, PRT, RUS, SGP, SVK, SVN, SWE, TTO, TWN, URY, USA."
+Wage/transfer/pension receipt coverage,receive_wages/transfers/pensions/agriculture and pay_utilities asked in 90 economies only (missing: 50).
+Binary variables hide DK/Refused,"account, account_fin, account_mob, dig_account, anydigpayment, saved, borrowed, merchantpay_dig, internet_use are derived binaries: 'No/DK/Ref' = 0. DK/Refused cannot be separated; use the raw fin* questions if needed."
+Mixed coding conventions,Raw questions: 1=Yes 2=No 3=DK 4=Refused. Derived: 1/0. female: 1=Female 2=Male. urbanicity: 1=Rural 2=Urban. emp_in: 1=in workforce 2=out. con* variables use 8/9 or 98/99 for DK/Refused. Recode before pooling.
+receive_* and pay_utilities,"5-category, not binary. Digital receipt = code 1 (into an account). Code 5 = DK/Refused (175 to 334 cases)."
+inc_q missing,"1,020 rows missing; most in LSO (1,020). Entirely missing in: LSO."
+emp_in missing,"4,020 rows missing; most in CHN (4,020). Entirely missing in: CHN."
+educ missing,"588 rows missing; most in COM (54), ZAF (39), OMN (30), BRA (24)."
+urbanicity missing,"2,526 rows missing; most in CHN (378), JPN (198), VEN (180), RUS (165)."
+domestic_remittances code 4,"Value label says 4 = DK/ref, yet 40,768 of 132,273 non-missing answers (30.8%) have code 4, versus well under 1% DK/Refused elsewhere. The label is probably wrong. Check the codebook before using this variable."
+Income group variable,"No economy income-group variable in the file (only regionwb, where 'High income' is a category). Merge the World Bank income classification via economycode if needed."
+Duplicates,"0 fully duplicated rows, 0 duplicated wpid_random."
+Logic checks,account=1 but account_fin=0 and account_mob=0/missing: 0 rows; account=0 but account_fin=1: 0 rows; account_mob=1 but account=0: 0 rows; dig_account=1 but account=0: 0 rows.
+Unusual samples,"52 economies have n != 1,000. Smallest: ISL 500, TTO 502, BLZ 509; largest: CHN 4,020, IND 3,000."
