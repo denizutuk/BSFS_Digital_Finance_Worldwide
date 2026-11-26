@@ -1,0 +1,30 @@
+Group,Variable,Label,Coding,N non-missing,% of all respondents,Economies with data,DK/Refused count,Economies with NO data
+Account ownership,account,Has an account,"1 = Yes, 0 = No / Don't know / Refused (derived binary)",144090,1.0,all 140,Not recoverable: DK/Refused already folded into 0,-
+Account ownership,account_fin,Has an account at a financial institution,"1 = Yes, 0 = No / Don't know / Refused (derived binary)",144090,1.0,all 140,Not recoverable: DK/Refused already folded into 0,-
+Account ownership,account_mob,Has a mobile money account,"1 = Yes, 0 = No / Don't know / Refused (derived binary)",81924,0.568561315844264,80/140,Not recoverable: DK/Refused already folded into 0,60 economies (see Data_Gaps)
+Account ownership,dig_account,Has a digitally enabled account,"1 = Yes, 0 = No / Don't know / Refused (derived binary)",102954,0.7145117634811576,98/140,Not recoverable: DK/Refused already folded into 0,42 economies (see Data_Gaps)
+Account ownership,fin2,Has a debit card,"1 = Yes, 2 = No, 3 = Don't know, 4 = Refused",144090,1.0,all 140,843 (0.59% of non-missing),-
+Digital payments,anydigpayment,Made or received a digital payment,"1 = Yes, 0 = No / Don't know / Refused (derived binary)",102954,0.7145117634811576,98/140,Not recoverable: DK/Refused already folded into 0,42 economies (see Data_Gaps)
+Digital payments,merchantpay_dig,Made a digital merchant payment,"1 = Yes, 0 = No / Don't know / Refused (derived binary)",102954,0.7145117634811576,98/140,Not recoverable: DK/Refused already folded into 0,42 economies (see Data_Gaps)
+Digital payments,receive_wages,Received a wage payment,"1 = Into an account, 2 = In cash only, 3 = Some other way, 4 = Did not receive, 5 = DK/Refused",91901,0.6378027621625373,90/140,202 (0.22% of non-missing),50 economies (see Data_Gaps)
+Digital payments,receive_transfers,Received a government transfer payment,"1 = Into an account, 2 = In cash only, 3 = Some other way, 4 = Did not receive, 5 = DK/Refused",91901,0.6378027621625373,90/140,334 (0.36% of non-missing),50 economies (see Data_Gaps)
+Digital payments,receive_pensions,Received a government pension payment,"1 = Into an account, 2 = In cash only, 3 = Some other way, 4 = Did not receive, 5 = DK/Refused",91901,0.6378027621625373,90/140,203 (0.22% of non-missing),50 economies (see Data_Gaps)
+Digital payments,receive_agriculture,Received a payment for the sale of agricultural goods,"1 = Into an account, 2 = In cash only, 3 = Some other way, 4 = Did not receive, 5 = DK/Refused",91901,0.6378027621625373,90/140,175 (0.19% of non-missing),50 economies (see Data_Gaps)
+Digital payments,pay_utilities,Paid a utility bill,"1 = From an account, 2 = In cash only, 3 = Some other way, 4 = Did not, 5 = DK/Refused",91901,0.6378027621625373,90/140,244 (0.27% of non-missing),50 economies (see Data_Gaps)
+Digital payments,domestic_remittances,Made or received a domestic remittance payment,"1 = Using an account, 2 = Not using an account, 3 = Did not make or receive, 4 = labelled DK/Refused (see Data_Gaps: suspicious)",132273,0.9179887570268582,131/140,"40,768 (30.82% of non-missing)","CHN, DZA, IRN, LBY, MUS, OMN, SAU, TTO, UKR"
+Saving,saved,Saved,"1 = Yes, 0 = No / Don't know / Refused (derived binary)",102954,0.7145117634811576,98/140,Not recoverable: DK/Refused already folded into 0,42 economies (see Data_Gaps)
+Saving,fin17a,Saved at a bank or similar financial institution,"1 = Yes, 2 = No, 3 = Don't know, 4 = Refused",102954,0.7145117634811576,98/140,693 (0.67% of non-missing),42 economies (see Data_Gaps)
+Borrowing,borrowed,Borrowed,"1 = Yes, 0 = No / Don't know / Refused (derived binary)",102954,0.7145117634811576,98/140,Not recoverable: DK/Refused already folded into 0,42 economies (see Data_Gaps)
+Borrowing,fin22a,Borrowed from a formal bank or similar financial institution,"1 = Yes, 2 = No, 3 = Don't know, 4 = Refused",102954,0.7145117634811576,98/140,310 (0.30% of non-missing),42 economies (see Data_Gaps)
+Borrowing,fin22b,Borrowed from friends or family,"1 = Yes, 2 = No, 3 = Don't know, 4 = Refused",102954,0.7145117634811576,98/140,314 (0.30% of non-missing),42 economies (see Data_Gaps)
+Demographics,female,Respondent is female,"1 = Female, 2 = Male (NOT 0/1)",144090,1.0,all 140,n/a,-
+Demographics,age,Respondent age,"Continuous, years",144090,1.0,all 140,n/a,-
+Demographics,educ,Respondent education level,"1 = Primary or less, 2 = Secondary, 3 = Tertiary or more",143502,0.9959192171559442,all 140,n/a,-
+Demographics,inc_q,Within-economy household income quintile,1 = poorest 20% ... 5 = richest 20% (within-economy household income quintile),143070,0.9929210909848012,139/140,n/a,LSO
+Demographics,emp_in,Respondent is in workforce,"1 = In the workforce, 2 = Out of the workforce",140070,0.9721007703518634,139/140,n/a,CHN
+Demographics,urbanicity,Respondent lives in rural area,"1 = Rural, 2 = Urban (variable label says 'lives in rural area' but code 1 = Rural)",141564,0.9824692900270664,all 140,n/a,-
+Demographics,internet_use,Used the internet within the past three months,"1 = Yes, 0 = No / Don't know / Refused (derived binary)",144090,1.0,all 140,Not recoverable: DK/Refused already folded into 0,-
+Region / design,regionwb,Regional code,"Text, World Bank region ('High income' is its own category)",144090,1.0,all 140,n/a,-
+Region / design,economycode,Economy code,"Text, economy code",144090,1.0,all 140,n/a,-
+Region / design,pop_adult,"Population 15+, 2023, WDI","Continuous, population 15+ in 2023 (WDI), one value per economy",144090,1.0,all 140,n/a,-
+Region / design,wgt,Weight,"Continuous survey weight, mean 1 per economy",144090,1.0,all 140,n/a,-
